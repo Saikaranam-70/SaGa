@@ -1,0 +1,79 @@
+/* Background setup */
+.register-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0a0a0a, #1c1c1c, #3a3a3a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.register-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px 35px;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading */
+.register-box h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Inputs */
+.register-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background: #222;
+  color: #fff;
+  outline: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.register-box input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 8px #4f46e5;
+}
+
+/* Button */
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(90deg, #4f46e5, #6d28d9);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-box button:hover {
+  background: linear-gradient(90deg, #6d28d9, #4f46e5);
+}
+
+.register-box button:disabled {
+  background: #333;
+  cursor: not-allowed;
+}
+
+/* Toast customization (optional) */
+:root {
+  --toastify-color-success: #4ade80;
+  --toastify-color-error: #ef4444;
+}
