@@ -370,7 +370,7 @@ VITE_API_BASE_URL=http://localhost:8080/api
 <img src="https://avatars.githubusercontent.com/Saikaranam-70" width="110px" style="border-radius:50%"/>
 
 ### Sai Karanam
-*Full Stack Developer &nbsp;|&nbsp; React · Spring Boot · MongoDB*
+*Full Stack Developer &nbsp;|&nbsp; React · Spring Boot · MongoDB · MySql · ASP.NET · Node.js · Express.js*
 
 <br/>
 
